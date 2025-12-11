@@ -1,7 +1,6 @@
 //Write a Program to insert and delete an element in 1-D arrays
 public class Program1 {
 
-    // Function to insert element at given position
     public static int[] insert(int[] arr, int pos, int value) {
         int[] newArr = new int[arr.length + 1];
         for (int i = 0; i < pos; i++)
@@ -12,7 +11,6 @@ public class Program1 {
         return newArr;
     }
 
-    // Function to delete element from given position
     public static int[] delete(int[] arr, int pos) {
         int[] newArr = new int[arr.length - 1];
         for (int i = 0; i < pos; i++){
@@ -43,3 +41,4 @@ public class Program1 {
         }
     }
 }
+
